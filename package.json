@@ -1,0 +1,31 @@
+{
+  "name": "username.github.io",
+  "version": "1.0.0",
+  "description": "website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/username/username.github.io.git"
+  },
+  "author": "Your Name",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/username/username.github.io/issues"
+  },
+  "homepage": "https://github.com/username/username.github.io#readme",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.4.0",
+    "browser-sync": "^2.16.0",
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.8",
+    "webpack": "^2.5.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}

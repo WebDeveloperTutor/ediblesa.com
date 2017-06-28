@@ -1,0 +1,18 @@
+language: ruby
+cache: bundler
+rvm:
+  - 2.3.0
+sudo: false
+env:
+  global:
+    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+script:
+  - "chmod +x .traviscli-script/build.sh"
+  - "./script/build.sh"
+before_deploy:
+  - "nvm install v8.1.1"
+deploy:
+  skip_cleanup: true
+  provider: firebase
+  token:
+    secure: "$FIREBASE_TOKEN"

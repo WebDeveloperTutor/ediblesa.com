@@ -1,0 +1,62 @@
+---
+---
+
+
+/* CSS Styles are defined below */
+body {
+    font-family: Sans-serif;
+    background: #333333;
+}
+
+h3 {
+    display: inline-block;
+    cursor: pointer;
+    margin: 0;
+}
+h3:hover {
+    color: #FFCC00!important;
+}
+
+h3 ~ span {
+    color: white;
+    font-size: 12px;
+}
+
+#description {
+    display: none;
+}
+
+.logo {
+    width: 400px;
+}
+
+.buttons {
+    margin-top: 10px;
+}
+#button1, 
+#button2 {
+    background-color: #FFCC00;
+    border: 2px solid #FFCC00;
+    border-radius: 5px;
+    height: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#output {
+    color: #fff;
+    padding-top: 10px;
+}
+
+/**
+ * Media Queries
+ **/
+@media (max-width: 480px) {
+    .logo {
+        width: 300px;
+    }
+    .buttons * {
+        font-size: 9px;
+    }
+}
