@@ -1,29 +1,341 @@
 ---
+layout: default
 title: ediblesa.com
+brand: Edible San Antonio
 ---
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <title>{{ page.title }}</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="{{ site.github.url }}/css/main.css" type="text/css" />
-</head>
 
-<body>
-    <h1>Let's learn HTML, CSS and JavaScript using Jekyll</h1>
-    <h3>What is Jekyll?</h3> <span><< Click the question</span>
-    <div id="description">
-        <img class="logo" src="{{ site.github.url }}/images/logo-2x.png">
-        <p>A static site generator that converts templates and raw text files into a plain HTML website that's ready to be publish on any web server. </p>
-    </div>
-    <div class="buttons">
-        <button id="button1">A random Integer</button>
-        <button id="button2">A random Integer between 1 and 20</button>
-    </div>
-    <div id="output"></div>
-    <script src="{{ site.github.url }}/js/bundle.js"></script>
-</body>
-</html>
+        {% include slideshow.html %}
+
+
+
+			<!-- page content -->
+			<div class="page-content">
+				<div class="grid-row composer">
+					<!-- text -->
+					<div class="text intro">
+						<h1 class="center">Welcome to PressView</h1>
+						<h2 class="center">A clean and powerful multipurpose magazine template.</h2>
+						<h4 class="center">Curabitur quis tellus in eros rutrum dapibus. Curabitur non eros congue arcu consectetur semper id et urna. Integer scelerisque, felis nec tincidunt eleifend, neque ipsum consectetur arcu, accumsan fringilla libero leo venenatis tellus. In hac habitasse platea dictumst. Mauris porttitor nibh tincidunt, sagittis nisl quis, accumsan sapien. Nam in velit metus. Etiam eget massa risus.</h4>
+						<ul class="icons center wow scale-to-top">
+							<li>
+								<i class="fa fa-user"></i>
+								User Centred
+							</li><!--
+							--><li>
+								<i class="fa fa-coffee"></i>
+								Who We Are
+							</li><!--
+							--><li>
+								<i class="fa fa-flask"></i>
+								What We Do
+							</li><!--
+							--><li>
+								<i class="fa fa-bullhorn"></i>
+								In the News
+							</li><!--
+							--><li>
+								<i class="fa fa-eye"></i>
+								Recognition
+							</li>
+						</ul>
+					</div>
+					<!--/ text -->
+				</div>
+			</div>
+			
+			<div class="page-content-alt-2">
+				<div class="grid-row">
+					<!-- latest posts -->
+					<div class="latest-posts">
+						<div class="head-line"><i class="fa fa-pencil"></i></div>
+						<ul>
+							<li class="wow scale-to-top">
+								<div class="picture">
+									<img src="pic/text/pic-2.jpg" width="270" alt="">
+									<span class="hover-effect"></span>
+									<div class="link-cont">
+										<a class="cws-slide-left" href="#"><i class="fa fa-link"></i></a>
+										<a class="cws-slide-right fancy" href="pic/text/pic-2.jpg"><i class="fa fa-search"></i></a>
+									</div>
+								</div>
+								<h4><span><i>Design</i></span></h4>
+								<h3><a href="#">Suspendisse sit amet gravida</a></h3>
+								<div class="post-info">
+									<span>October 14 2014</span><!--
+								 --><span><i class="fa fa-comment"></i>2 Comments</span>
+								</div>
+							</li><!--
+							--><li class="wow scale-to-top">
+								<div class="picture">
+									<img src="pic/text/pic-1.jpg" width="270" alt="">
+									<span class="hover-effect"></span>
+									<div class="link-cont">
+										<a class="cws-slide-left" href="#"><i class="fa fa-link"></i></a>
+										<a class="cws-slide-right fancy" href="pic/text/pic-1.jpg"><i class="fa fa-search"></i></a>
+									</div>
+								</div>
+								<h4><span><i>Art</i></span></h4>
+								<h3><a href="#">Praesent ut dui sit amet scelerisque</a></h3>
+								<div class="post-info">
+										<span>October 21 2014</span><!--
+									 --><span><i class="fa fa-comment"></i>5 Comments</span>
+									</div>
+							</li><!--
+							--><li class="wow scale-to-top">
+								<div class="picture">
+									<img src="pic/text/pic-3.jpg" width="270" alt="">
+									<span class="hover-effect"></span>
+									<div class="link-cont">
+										<a class="cws-slide-left" href="#"><i class="fa fa-link"></i></a>
+										<a class="cws-slide-right fancy" href="pic/text/pic-3.jpg"><i class="fa fa-search"></i></a>
+									</div>
+								</div>
+								<h4><span><i>Graphics</i></span></h4>
+								<h3><a href="#">Vivamus tincidunt ac dui et dictum</a></h3>
+								<div class="post-info">
+										<span>October 25 2014</span><!--
+									 --><span><i class="fa fa-comment"></i>1 Comments</span>
+									</div>
+							</li><!--
+							--><li class="wow scale-to-top">
+								<div class="picture">
+									<img src="pic/text/pic-4.jpg" width="270" alt="">
+									<span class="hover-effect"></span>
+									<div class="link-cont">
+										<a class="cws-slide-left" href="#"><i class="fa fa-link"></i></a>
+										<a class="cws-slide-right fancy" href="pic/text/pic-4.jpg"><i class="fa fa-search"></i></a>
+									</div>
+								</div>
+								<h4><span><i>Cinema</i></span></h4>
+								<h3><a href="#">Aenean dapibus egestas vulputate</a></h3>
+								<div class="post-info">
+										<span>October 29 2014</span><!--
+									 --><span><i class="fa fa-comment"></i>9 Comments</span>
+									</div>
+							</li>
+						</ul>
+					</div>
+					<!--/ latest posts -->
+				</div>
+			</div>
+				
+			<div class="page-content">
+				<div class="grid-row">
+					<!-- best reviews -->
+					<div class="best-reviews">
+						<h2>Latest Reviews</h2>
+						<div class="page-separator"></div>
+						<ul id="best-reviews" class="wow scale-to-top">
+							<li>
+								<h4><span><i>Design</i></span></h4>
+								<div class="value">6.83</div>
+								<h3><a href="#">Mauris ultrices dui sed accumsan</a></h3>
+								<p>Donec ac dapibus elit. Proin facilisis nulla in est mattis, ut dapibus justo euismod. Proin sollicitudin a mi vel fermentum. Phasellus aliquam sollicitudin libero nec tincidunt. Sed posuere nisl sit. amet.faucibus, vitae pharetra ante iaculis.</p>
+								<div class="more"><a href="#">Read More →</a></div>
+							</li>
+							<li>
+								<h4><span><i>People</i></span></h4>
+								<div class="value">7.21</div>
+								<h3><a href="#">Nulla nec libero sed leo facilisis</a></h3>
+								<p>Fusce molestie nulla velit, fringilla tristique ipsum tincidunt vel. Suspendisse tincidunt arcu arcu, quis viverra tortor bibendum ut. Fusce non nulla consectetur, tempor mauris. noluctus mauris. In placerat egestas tristique. Maecenas et arcu laoreet.</p>
+								<div class="more"><a href="#">Read More →</a></div>
+							</li>
+							<li>
+								<h4><span><i>Fashion</i></span></h4>
+								<div class="value">9.05</div>
+								<h3><a href="#">Vestibulum varius urna molestie</a></h3>
+								<p>Nam ut mattis est, a lacinia ligula. Praesent condimentum dapibus condimentum. Suspendisse potenti. Nulla tempor nulla quis justo ultrices commodo. Duis urna sapien, semper in placerat vitae, tempor ut orci. Vestibulum.</p>
+								<div class="more"><a href="#">Read More →</a></div>
+							</li>
+							<li>
+								<h4><span><i>Music</i></span></h4>
+								<div class="value">6.46</div>
+								<h3><a href="#">Mauris ultrices dui sed accumsan</a></h3>
+								<p>Fusce molestie nulla velit, fringilla tristique ipsum tincidunt vel. Suspendisse tincidunt arcu arcu, quis viverra tortor bibendum ut. Fusce non nulla consectetur, tempor mauris. noluctus mauris. In placerat egestas tristique. Maecenas et arcu laoreet.</p>
+								<div class="more"><a href="#">Read More →</a></div>
+							</li>
+							<li>
+								<h4><span><i>Style</i></span></h4>
+								<div class="value">8.12</div>
+								<h3><a href="#">Nulla nec libero sed leo facilisis</a></h3>
+								<p>Donec ac dapibus elit. Proin facilisis nulla in est mattis, ut dapibus justo euismod. Proin sollicitudin a mi vel fermentum. Phasellus aliquam sollicitudin libero nec tincidunt. Sed posuere nisl sit. amet.faucibus, vitae pharetra ante iaculis.</p>
+								<div class="more"><a href="#">Read More →</a></div>
+							</li>
+							<li>
+								<h4><span><i>Photo</i></span></h4>
+								<div class="value">6.84</div>
+								<h3><a href="#">Vestibulum varius urna molestie</a></h3>
+								<p>Nam ut mattis est, a lacinia ligula. Praesent condimentum dapibus condimentum. Suspendisse potenti. Nulla tempor nulla quis justo ultrices commodo. Duis urna sapien, semper in placerat vitae, tempor ut orci. Vestibulum.</p>
+								<div class="more"><a href="#">Read More →</a></div>
+							</li>
+						</ul>
+					</div>
+					<!--/ best reviews -->	
+				</div>
+			</div>
+			
+			<div class="page-content-alt">
+				<div class="grid-row composer">
+					<div class="text">
+						<h1 class="center">Latest Articles</h1>
+						<br>
+						<br>
+					</div>
+				</div>
+				
+				<br>
+				
+				<div class="grid-row">
+					<div class="grid-col grid-col-8">							
+						<!-- latest articles -->
+						<div class="latest-articles">
+							<ul>
+								<li class="wow scale-to-top">
+									<div class="picture">
+										<img src="pic/text/pic-2.jpg" width="370" alt="">
+										<span class="hover-effect"></span>
+										<div class="link-cont">
+											<a class="cws-slide-left" href="#"><i class="fa fa-link"></i></a>
+											<a class="cws-slide-right fancy" href="pic/text/pic-2.jpg"><i class="fa fa-search"></i></a>
+										</div>
+									</div>
+									<h4><span><i>Design</i></span></h4>
+									<h3><a href="#">Aliquam fringilla metus.</a></h3>
+									<div class="post-info">
+										<span>October 05 2014</span><!--
+									 --><span><i class="fa fa-comment"></i>2 Comments</span>
+									</div>
+									<p>Vestibulum id nisl a neque malesuada hendrerit. Mauris ut porttitor nunc, ut volutpat nisl. Nam ullamcorper ultricies metus vel ornare. Vivamus tincidunt erat in mi accumsan, a sollicitudin risus vestibulum.</p>
+									<div class="more"><a href="#">Read More &rarr;</a></div>
+								</li><!--
+								--><li class="wow scale-to-top">
+									<div class="picture">
+										<img src="pic/text/pic-1.jpg" width="370" alt="">
+										<span class="hover-effect"></span>
+										<div class="link-cont">
+											<a class="cws-slide-left" href="#"><i class="fa fa-link"></i></a>
+											<a class="cws-slide-right fancy" href="pic/text/pic-1.jpg"><i class="fa fa-search"></i></a>
+										</div>
+									</div>
+									<h4><span><i>People</i></span></h4>
+									<h3><a href="#">Pellentesque enim odio.</a></h3>
+									<div class="post-info">
+										<span>October 12 2014</span><!--
+									 --><span><i class="fa fa-comment"></i>5 Comments</span>
+									</div>
+									<p>Curabitur non eros congue arcu consectetur semper id et urna. Integer scelerisque, felis nec tincidunt. eleifend neque ipsum consectetur arcu accumsan fringilla libero leo venenatis tellus. In hac habitasse platea.</p>
+									<div class="more"><a href="#">Read More &rarr;</a></div>
+								</li><!--
+								--><li class="wow scale-to-top">
+									<div class="picture">
+										<img src="pic/text/pic-3.jpg" width="370" alt="">
+										<span class="hover-effect"></span>
+										<div class="link-cont">
+											<a class="cws-slide-left" href="#"><i class="fa fa-link"></i></a>
+											<a class="cws-slide-right fancy" href="pic/text/pic-3.jpg"><i class="fa fa-search"></i></a>
+										</div>
+									</div>
+									<h4><span><i>Fashion</i></span></h4>
+									<h3><a href="#">Curabitur volutpat lacus.</a></h3>
+									<div class="post-info">
+										<span>October 22 2014</span><!--
+									 --><span><i class="fa fa-comment"></i>5 Comments</span>
+									</div>
+									<p>Sed pretium elit et sagittis egestas. Vivamus feugiat nisl id egestas convallis. Proin dapibus dui nisi, luctus bibendum nunc aliquet a. Vivamus eget purus sit amet arcu viverra molestie non vel lacus.</p>
+									<div class="more"><a href="#">Read More &rarr;</a></div>
+								</li><!--
+								--><li class="wow scale-to-top">
+									<div class="picture">
+										<img src="pic/text/pic-4.jpg" width="370" alt="">
+										<span class="hover-effect"></span>
+										<div class="link-cont">
+											<a class="cws-slide-left" href="#"><i class="fa fa-link"></i></a>
+											<a class="cws-slide-right fancy" href="pic/text/pic-4.jpg"><i class="fa fa-search"></i></a>
+										</div>
+									</div>
+									<h4><span><i>Music</i></span></h4>
+									<h3><a href="#">Praesent et ullamcorper.</a></h3>
+									<div class="post-info">
+										<span>October 27 2014</span><!--
+									 --><span><i class="fa fa-comment"></i>5 Comments</span>
+									</div>
+									<p>Aenean vel feugiat eros. Integer purus libero, commodo sit amet ipsum a, fringilla posuere augue. Ut eleifend quis dui sit amet semper. Integer sed felis mi. Nulla molestie enim in sem eleifend.</p>
+									<div class="more"><a href="#">Read More &rarr;</a></div>
+								</li>
+							</ul>
+						</div>					
+						<!--/ latest articles -->
+					</div>
+					
+					<div class="grid-col grid-col-4">						
+						<!-- widget authors -->
+						<div class="widget widget-authors">
+							<div class="head"><span>Our Authors</span></div>
+							<div id="widget-authors"  class="wow scale-to-top">
+								<div class="item">
+									<ul>
+										<li><a href="#"><img src="pic/widget-authors/item-1.jpg" alt=""></a></li><!--
+										--><li><a href="#"><img src="pic/widget-authors/item-2.jpg" alt=""></a></li><!--
+										--><li><a href="#"><img src="pic/widget-authors/item-3.jpg" alt=""></a></li><!--
+										--><li><a href="#"><img src="pic/widget-authors/item-4.jpg" alt=""></a></li><!--
+										--><li><a href="#"><img src="pic/widget-authors/item-5.jpg" alt=""></a></li><!--
+										--><li><a href="#"><img src="pic/widget-authors/item-6.jpg" alt=""></a></li>
+									</ul>
+								</div>
+								<div class="item">
+									<ul>
+										<li><a href="#"><img src="pic/widget-authors/item-6.jpg" alt=""></a></li><!--
+										--><li><a href="#"><img src="pic/widget-authors/item-4.jpg" alt=""></a></li><!--
+										--><li><a href="#"><img src="pic/widget-authors/item-2.jpg" alt=""></a></li><!--
+										--><li><a href="#"><img src="pic/widget-authors/item-5.jpg" alt=""></a></li><!--
+										--><li><a href="#"><img src="pic/widget-authors/item-3.jpg" alt=""></a></li><!--
+										--><li><a href="#"><img src="pic/widget-authors/item-1.jpg" alt=""></a></li>
+									</ul>
+								</div>
+								<div class="item">
+									<ul>
+										<li><a href="#"><img src="pic/widget-authors/item-3.jpg" alt=""></a></li><!--
+										--><li><a href="#"><img src="pic/widget-authors/item-6.jpg" alt=""></a></li><!--
+										--><li><a href="#"><img src="pic/widget-authors/item-1.jpg" alt=""></a></li><!--
+										--><li><a href="#"><img src="pic/widget-authors/item-4.jpg" alt=""></a></li><!--
+										--><li><a href="#"><img src="pic/widget-authors/item-2.jpg" alt=""></a></li><!--
+										--><li><a href="#"><img src="pic/widget-authors/item-5.jpg" alt=""></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<!--/ widget authors -->
+						
+						<!-- widget comments -->
+						<div class="widget widget-comments">
+							<div class="head"><span>Comments</span></div>
+							<ul>
+								<li class="wow scale-to-top">
+									<div class="author"><i>01.</i><span>Kyle Garza</span></div>
+									<p>Curabitur non eros congue arcu consectetur semper id et urna. Integer scelerisque, felis nec tincidunt. eleifend neque ipsum consectetur.</p>
+								</li>
+								<li class="wow scale-to-top">
+									<div class="author"><i>02.</i><span>Randy Watson</span></div>
+									<p>Sed pretium elit et sagittis egestas. Vivamus feugiat nisl id egestas convallis. Proin dapibus dui nisi, luctus bibendum nunc aliquet.</p>
+								</li>
+								<li class="wow scale-to-top">
+									<div class="author"><i>03.</i><span>Jeremy Walsh</span></div>
+									<p>Aenean vel feugiat eros. Integer purus libero, commodo sit amet ipsum a, fringilla posuere augue. Ut eleifend quis dui sit amet semper.</p>
+								</li>
+							</ul>
+						</div>
+						<!--/ widget comments -->
+						
+						<!-- widget social -->
+						<div class="widget widget-social">
+							<ul>
+								<li><a href="#"><i class="fa fa-twitter"></i>15500<span>followers</span></a></li><!--
+								--><li><a href="#"><i class="fa fa-facebook"></i>23081<span>funs</span></a></li><!--
+								--><li><a href="#"><i class="fa fa-google-plus"></i>15323<span>people</span></a></li>
+							</ul>
+						</div>
+						<!--/ widget social -->
+					</div>
+				</div>
+			</div>
+			<!--/ page content -->
