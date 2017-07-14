@@ -1,29 +1,247 @@
 ---
+layout: default
 title: ediblesa.com
+brand: Edible San Antonio
 ---
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <title>{{ page.title }}</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="{{ site.github.url }}/css/main.css" type="text/css" />
-</head>
 
-<body>
-    <h1>Let's learn HTML, CSS and JavaScript using Jekyll</h1>
-    <h3>What is Jekyll?</h3> <span><< Click the question</span>
-    <div id="description">
-        <img class="logo" src="{{ site.github.url }}/images/logo-2x.png">
-        <p>A static site generator that converts templates and raw text files into a plain HTML website that's ready to be publish on any web server. </p>
-    </div>
-    <div class="buttons">
-        <button id="button1">A random Integer</button>
-        <button id="button2">A random Integer between 1 and 20</button>
-    </div>
-    <div id="output"></div>
-    <script src="{{ site.github.url }}/js/bundle.js"></script>
-</body>
-</html>
+        {% include slideshow.html %}
+
+
+			<!-- page content -->
+			<div class="page-content grid-row">
+			</div>
+			
+			<div class="page-content-alt">
+				<div class="grid-row composer">
+					<div class="text">
+						<h1 class="center">Latest Articles</h1>
+						<br>
+						<br>
+					</div>
+				</div>
+				
+				<br>
+				
+				<div class="grid-row">
+					<div class="grid-col grid-col-8">							
+						<!-- latest articles -->
+						<div class="latest-articles">
+							<ul>
+								<li class="wow scale-to-top">
+									<div class="picture">
+										<img src="pic/text/pic-2.jpg" width="370" alt="">
+										<span class="hover-effect"></span>
+										<div class="link-cont">
+											<a class="cws-slide-left" href="#"><i class="fa fa-link"></i></a>
+											<a class="cws-slide-right fancy" href="pic/text/pic-2.jpg"><i class="fa fa-search"></i></a>
+										</div>
+									</div>
+									<h4><span><i>Design</i></span></h4>
+									<h3><a href="#">Aliquam fringilla metus.</a></h3>
+									<div class="post-info">
+										<span>October 05 2014</span>
+									</div>
+									<p>Vestibulum id nisl a neque malesuada hendrerit. Mauris ut porttitor nunc, ut volutpat nisl. Nam ullamcorper ultricies metus vel ornare. Vivamus tincidunt erat in mi accumsan, a sollicitudin risus vestibulum.</p>
+									<div class="more"><a href="#">Read More &rarr;</a></div>
+								</li><!--
+								--><li class="wow scale-to-top">
+									<div class="picture">
+										<img src="pic/text/pic-1.jpg" width="370" alt="">
+										<span class="hover-effect"></span>
+										<div class="link-cont">
+											<a class="cws-slide-left" href="#"><i class="fa fa-link"></i></a>
+											<a class="cws-slide-right fancy" href="pic/text/pic-1.jpg"><i class="fa fa-search"></i></a>
+										</div>
+									</div>
+									<h4><span><i>People</i></span></h4>
+									<h3><a href="#">Pellentesque enim odio.</a></h3>
+									<div class="post-info">
+										<span>October 12 2014</span>
+									</div>
+									<p>Curabitur non eros congue arcu consectetur semper id et urna. Integer scelerisque, felis nec tincidunt. eleifend neque ipsum consectetur arcu accumsan fringilla libero leo venenatis tellus. In hac habitasse platea.</p>
+									<div class="more"><a href="#">Read More &rarr;</a></div>
+								</li><!--
+								--><li class="wow scale-to-top">
+									<div class="picture">
+										<img src="pic/text/pic-3.jpg" width="370" alt="">
+										<span class="hover-effect"></span>
+										<div class="link-cont">
+											<a class="cws-slide-left" href="#"><i class="fa fa-link"></i></a>
+											<a class="cws-slide-right fancy" href="pic/text/pic-3.jpg"><i class="fa fa-search"></i></a>
+										</div>
+									</div>
+									<h4><span><i>Fashion</i></span></h4>
+									<h3><a href="#">Curabitur volutpat lacus.</a></h3>
+									<div class="post-info">
+										<span>October 22 2014</span>
+									</div>
+									<p>Sed pretium elit et sagittis egestas. Vivamus feugiat nisl id egestas convallis. Proin dapibus dui nisi, luctus bibendum nunc aliquet a. Vivamus eget purus sit amet arcu viverra molestie non vel lacus.</p>
+									<div class="more"><a href="#">Read More &rarr;</a></div>
+								</li><!--
+								--><li class="wow scale-to-top">
+									<div class="picture">
+										<img src="pic/text/pic-4.jpg" width="370" alt="">
+										<span class="hover-effect"></span>
+										<div class="link-cont">
+											<a class="cws-slide-left" href="#"><i class="fa fa-link"></i></a>
+											<a class="cws-slide-right fancy" href="pic/text/pic-4.jpg"><i class="fa fa-search"></i></a>
+										</div>
+									</div>
+									<h4><span><i>Music</i></span></h4>
+									<h3><a href="#">Praesent et ullamcorper.</a></h3>
+									<div class="post-info">
+										<span>October 27 2014</span>
+									</div>
+									<p>Aenean vel feugiat eros. Integer purus libero, commodo sit amet ipsum a, fringilla posuere augue. Ut eleifend quis dui sit amet semper. Integer sed felis mi. Nulla molestie enim in sem eleifend.</p>
+									<div class="more"><a href="#">Read More &rarr;</a></div>
+								</li>
+							</ul>
+						</div>					
+						<!--/ latest articles -->
+					</div>
+					
+					<div class="grid-col grid-col-4">						
+						<!-- widget posts -->
+						<div class="widget widget-posts">
+							<div class="head"><span>Recent posts</span></div>
+							<ul>
+								<li>
+									<a href="#" class="pic"><img src="pic/recent-posts/item-3.jpg" width="140" height="70" alt=""></a>
+									<a href="#" class="icon"><i class="fa fa-comment"></i></a>
+									<a href="#" class="icon icon-alt"><i class="fa fa-search"></i></a>
+									<p>Curabitur non eros congue arcu consectetur semper id et urna.</p>
+									<p>October 15, 2014</p>
+								</li>
+								<li>
+									<a href="#" class="pic"><img src="pic/recent-posts/item-2.jpg" width="140" height="70" alt=""></a>
+									<a href="#" class="icon"><i class="fa fa-comment"></i></a>
+									<a href="#" class="icon icon-alt"><i class="fa fa-search"></i></a>
+									<p>Curabitur non eros congue arcu consectetur semper id et urna.</p>
+									<p>October 15, 2014</p>
+								</li>
+								<li>
+									<a href="#" class="pic"><img src="pic/recent-posts/item-1.jpg" width="140" height="70" alt=""></a>
+									<a href="#" class="icon"><i class="fa fa-comment"></i></a>
+									<a href="#" class="icon icon-alt"><i class="fa fa-search"></i></a>
+									<p>Curabitur non eros congue arcu consectetur semper id et urna.</p>
+									<p>October 15, 2014</p>
+								</li>
+							</ul>
+						</div>
+						<!--/ widget posts -->
+												<!-- widget text -->
+						<div class="widget widget-text">
+							<div class="head"><span>This is an AD</span></div>
+							<p>Suspendisse potenti. Fusce ac mi volutpat, laoreet purus sed, congue nibh. Nullam dictum nisi ullamcorper est viverra, eget iaculis tellus ultricies. Mauris hendrerit malesuada leo non faucibus. Fusce accumsan bibendum augue gravida pretium. Proin viverra faucibus urna vitae consequat. Maecenas libero dui, lobortis vitae rutrum ac, tincidunt eget urna. Cras est sapien, suscipit quis vestibulum et, pulvinar non sem. Nam ac urna pellentesque, adipiscing ante vel, volutpat ante.</p>
+						</div>
+						<!--/ widget text -->
+												<!-- widget text -->
+						<div class="widget widget-text">
+							<div class="head"><span>This is an AD</span></div>
+							<p>Suspendisse potenti. Fusce ac mi volutpat, laoreet purus sed, congue nibh. Nullam dictum nisi ullamcorper est viverra, eget iaculis tellus ultricies. Mauris hendrerit malesuada leo non faucibus. Fusce accumsan bibendum augue gravida pretium. Proin viverra faucibus urna vitae consequat. Maecenas libero dui, lobortis vitae rutrum ac, tincidunt eget urna. Cras est sapien, suscipit quis vestibulum et, pulvinar non sem. Nam ac urna pellentesque, adipiscing ante vel, volutpat ante.</p>
+						</div>
+						<!--/ widget text -->
+					</div>
+				</div>
+			</div>
+				</div>
+			
+			<div class="page-content">
+				<div class="grid-row composer">
+					<!-- text -->
+					<div class="text intro">
+						<h1 class="center">This is an AD</h1>
+					</div>
+					<!--/ text -->
+				</div>
+			</div>
+
+			<div class="page-content-alt-2">
+				<div class="grid-row">
+					<!-- latest posts -->
+					<div class="latest-posts">
+						<div class="head-line"><i class="fa fa-pencil"></i></div>
+						<ul>
+							<li class="wow scale-to-top">
+								<div class="picture">
+									<img src="pic/text/pic-2.jpg" width="270" alt="">
+									<span class="hover-effect"></span>
+									<div class="link-cont">
+										<a class="cws-slide-left" href="#"><i class="fa fa-link"></i></a>
+										<a class="cws-slide-right fancy" href="pic/text/pic-2.jpg"><i class="fa fa-search"></i></a>
+									</div>
+								</div>
+								<h4><span><i>Design</i></span></h4>
+								<h3><a href="#">Suspendisse sit amet gravida</a></h3>
+								<div class="post-info">
+									<span>October 14 2014</span>
+								</div>
+							</li><!--
+							--><li class="wow scale-to-top">
+								<div class="picture">
+									<img src="pic/text/pic-1.jpg" width="270" alt="">
+									<span class="hover-effect"></span>
+									<div class="link-cont">
+										<a class="cws-slide-left" href="#"><i class="fa fa-link"></i></a>
+										<a class="cws-slide-right fancy" href="pic/text/pic-1.jpg"><i class="fa fa-search"></i></a>
+									</div>
+								</div>
+								<h4><span><i>Art</i></span></h4>
+								<h3><a href="#">Praesent ut dui sit amet scelerisque</a></h3>
+								<div class="post-info">
+										<span>October 21 2014</span>
+									</div>
+							</li><!--
+							--><li class="wow scale-to-top">
+								<div class="picture">
+									<img src="pic/text/pic-3.jpg" width="270" alt="">
+									<span class="hover-effect"></span>
+									<div class="link-cont">
+										<a class="cws-slide-left" href="#"><i class="fa fa-link"></i></a>
+										<a class="cws-slide-right fancy" href="pic/text/pic-3.jpg"><i class="fa fa-search"></i></a>
+									</div>
+								</div>
+								<h4><span><i>Graphics</i></span></h4>
+								<h3><a href="#">Vivamus tincidunt ac dui et dictum</a></h3>
+								<div class="post-info">
+										<span>October 25 2014</span>
+									</div>
+							</li><!--
+							--><li class="wow scale-to-top">
+								<div class="picture">
+									<img src="pic/text/pic-4.jpg" width="270" alt="">
+									<span class="hover-effect"></span>
+									<div class="link-cont">
+										<a class="cws-slide-left" href="#"><i class="fa fa-link"></i></a>
+										<a class="cws-slide-right fancy" href="pic/text/pic-4.jpg"><i class="fa fa-search"></i></a>
+									</div>
+								</div>
+								<h4><span><i>Cinema</i></span></h4>
+								<h3><a href="#">Aenean dapibus egestas vulputate</a></h3>
+								<div class="post-info">
+										<span>October 29 2014</span>
+									</div>
+							</li>
+						</ul>
+					</div>
+					<!--/ latest posts -->
+				</div>
+			</div>
+
+			<div class="page-content">
+				<div class="grid-row composer">
+									<div class="text intro">
+						<h1 class="center">Sponsers</h1>
+					</div>
+										<!-- gallery -->
+						<ul class="gallery">
+							<li><a href="pic/slider/item-2.jpg" data-fancybox-group="gallery" class="fancybox picture"><span class="hover-effect"></span><img src="pic/gallery/item-1.jpg" width="270" height="217" alt=""></a></li><!--
+							--><li><a href="pic/slider/item-1.jpg" data-fancybox-group="gallery" class="fancybox picture"><span class="hover-effect"></span><img src="pic/gallery/item-2.jpg" width="270" height="217" alt=""></a></li><!--
+							--><li><a href="pic/slider/item-2.jpg" data-fancybox-group="gallery" class="fancybox picture"><span class="hover-effect"></span><img src="pic/gallery/item-3.jpg" width="270" height="217" alt=""></a></li><!--
+							--><li><a href="pic/slider/item-1.jpg" data-fancybox-group="gallery" class="fancybox picture"><span class="hover-effect"></span><img src="pic/gallery/item-4.jpg" width="270" height="217" alt=""></a></li>
+						</ul>
+						<!-- gallery -->
+				</div>
+			</div>
+			
+			<!--/ page content -->
