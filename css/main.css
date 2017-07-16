@@ -290,6 +290,35 @@ a:hover {
 	}
 }
 
+/**/
+/* huge font */
+/**/
+
+@media screen and (min-width: 340px) { /* phone */
+
+.huge {
+	font-size: 3em;
+}
+}
+@media screen and (min-width: 480px) { /* phone */
+
+.huge {
+	font-size: 3em;
+}
+}
+@media screen and (min-width: 620px) { /* phone */
+
+.huge {
+	font-size: 5em;
+}
+}
+@media screen and (min-width: 720px) { /* phone */
+
+.huge {
+	font-size: 8em;
+}
+
+}
 
 /**/
 /* page */
@@ -915,6 +944,7 @@ a:hover {
 	.search-opened .closer {
 		display: block;
 	}
+	
 }
 
 
@@ -4578,6 +4608,7 @@ a:hover {
 		width: calc(100% - 5%);
 		margin-left: 5%;
 	}
+	
 }
 
 @media screen and (max-width: 479px) { /* mini phone */
@@ -5037,6 +5068,7 @@ a:hover {
 		width: 100%;
 		height: auto;
 	}
+	
 }
 
 
@@ -5111,6 +5143,7 @@ a:hover {
 	.countdown .sep {
 		margin: 0 12px;
 	}
+	
 }
 @media screen and (max-width: 479px) { /* mini phone */
 	.countdown li {
@@ -7995,6 +8028,7 @@ a:hover {
 	.widget-alt-news ul {
 		padding: 0;
 	}
+	
 }
 
 
